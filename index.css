@@ -1,0 +1,60 @@
+nav {
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.navContainer {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+.brandLogo {
+	float: left;
+}
+.navLinks {
+	float: right;
+}
+.navLinks li  {
+	display: inline;
+	margin: 0 10px;
+}
+.topPage {
+	height: 100vh;
+	width: 100%;
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg);
+	background-size: cover;
+	padding-top: 15%;
+}
+.topContainer  {
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.topPage .divider {
+	height: 3px;
+	width: 80px;
+	margin: 20px auto;
+	background-color: #f05f40;
+}
+.topPage button {
+	padding: 18px 26px;
+	background-color: #f05f40;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	transition: 0.4s;
+}
+.topPage button:hover {
+	background-color: #eb3812;
+	cursor:pointer;
+}
+
+
+
